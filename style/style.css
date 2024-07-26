@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+
+header {
+    position: relative;
+    background-image: url(/img/bgimage.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    }
+
+    .carousel {
+        position: relative;
+        width: 100%;
+        max-width: 1000px; /* Ajuste conforme necessário */
+        margin: 20px auto; /* Centraliza o carrossel */
+        overflow: hidden;
+    }
+    
+    .carousel-slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .carousel-slide img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .carousel-prev, .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .carousel-prev {
+        left: 10px;
+    }
+    
+    .carousel-next {
+        right: 10px;
+    }
+
